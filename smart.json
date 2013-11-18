@@ -1,0 +1,9 @@
+{
+  "name": "console-me",
+  "description": "Causes console.log() on the server to display on the client console as well",
+  "homepage": "",
+  "author": "Eric Dobbertin (http://dairystatedesigns.com)",
+  "version": "0.1.0",
+  "git": "",
+  "packages": {}
+}
