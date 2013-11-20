@@ -1,9 +1,9 @@
 {
   "name": "console-me",
   "description": "Causes console.log() on the server to display on the client console as well",
-  "homepage": "",
+  "homepage": "https://github.com/aldeed/meteor-console-me",
   "author": "Eric Dobbertin (http://dairystatedesigns.com)",
   "version": "0.1.0",
-  "git": "",
+  "git": "https://github.com/aldeed/meteor-console-me.git",
   "packages": {}
 }
