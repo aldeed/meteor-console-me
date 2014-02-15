@@ -58,7 +58,7 @@ if (Meteor.isClient) {
     added: function(doc) {
       var args = ["Server (" + doc.createdAt.toUTCString() + "):"];
       for (var i = 0, ln = doc.args.length; i < ln; i++) {
-          args.push(doc.args[i]);
+          args.push(JSON.parse(doc.args[i]));
       }
       console.log.apply(console, args);
     }
