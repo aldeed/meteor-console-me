@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Causes console.log() on the server to display on the client console as well"
+  summary: "Causes console.log() on the server to display on a client console as well"
 });
 
 Package.on_use(function(api) {
