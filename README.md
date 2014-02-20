@@ -7,8 +7,11 @@ remote server. This could be insecure, so don't enable this on a production app.
 
 ## Installation
 
-Add the `console-me` package to your app. Not in Atmosphere, so point to the
-master branch of the GitHub repository.
+Install using Meteorite. When in a Meteor app directory, enter:
+
+```
+$ mrt add console-me
+```
 
 ## Basic Usage
 
