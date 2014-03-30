@@ -28,3 +28,5 @@ server logging in the browser console, call `ConsoleMe.unsubscribe()`.
 
 This works but could be better. It should just be used for testing, so there
 won't be much work going into this package, but feel free to submit improvements.
+
+[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/aldeed/)
