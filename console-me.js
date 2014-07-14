@@ -5,7 +5,7 @@ if (Meteor.isServer) {
   
   var sharedConsole = new Meteor.Collection('_console', {connection: null});
   var originalLog = console.log;
-  console.log = function() {
+  console.log = Meteor.bindEnvironment(function() {
     originalLog.apply(console, arguments);
     if (ConsoleMe.enabled) {
       // Stringify arguments, stopping recursion at any circular references
@@ -28,7 +28,7 @@ if (Meteor.isServer) {
       cache = null; // Enable garbage collection
       sharedConsole.insert({args: args, createdAt: new Date});
     }
-  };
+  });
 
   Meteor.publish("_console", function() {
     var self = this;
