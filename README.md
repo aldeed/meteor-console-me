@@ -7,6 +7,14 @@ remote server. This could be insecure, so don't enable this on a production app.
 
 ## Installation
 
+When in a Meteor app directory, enter:
+
+```
+$ meteor add aldeed:console-me
+```
+
+## Installation (Prior to Meteor 0.9.0)
+
 Install using Meteorite. When in a Meteor app directory, enter:
 
 ```
