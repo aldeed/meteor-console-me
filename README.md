@@ -1,9 +1,7 @@
 ConsoleMe
 =========================
 
-A Meteor package that grabs all server calls to `console.log` and displays them
-on all subscribed client consoles as well. Useful for debugging test apps running on a
-remote server. This could be insecure, so don't enable this on a production app.
+A Meteor package that grabs all server calls to `console.log` and displays them on all subscribed client consoles as well. Useful for debugging test apps running on a remote server. This could be insecure, so don't enable this on a production app unless you know what you're doing.
 
 ## Installation
 
